@@ -41,7 +41,7 @@ public class BookController {
 
     // ✅ Read all (GET)
     @GetMapping("/all")
-    public List<Book> getAllBooks() throws SQLException {
+    public List<books> getAllBooks() throws SQLException {
         return service.getAllBooks();
     }
 }
